@@ -6,16 +6,6 @@
     border: 0;
 }
 
-body h1 {
-    font-family: Source Sans Pro, sans-serif;
-    color: #402e32;
-    text-decoration: none;
-}
-
-h1 {
-    align: center;
-}
-
 /*Setting set class image sizes -Large, Medium, Small*/
 img.large {
     height: 600px;
@@ -32,13 +22,23 @@ img.small {
     width: 100%;
 }
 
-/*Header bar*/
+/*Formatting of header and logo*/
 
-/*Logo placement*/
+/*Text*/
+h1 {
+    font-family: Source Sans Pro, sans-serif;
+    color: #402e32;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+}
+
+/*Logo*/
 #logo {
     float: left;
-    margin-left: 30px;
-
+    margin-left: 90px;
+    position: absolute;
+    z-index: 1;
 }
 
 /*Header text*/
@@ -49,8 +49,11 @@ img.small {
 
 /*Navigation links*/
 #menu {
+    font-family: Source Sans Pro, sans-serif;
     font-size: 100%;
     letter-spacing: 2px;
+    float: right;
+    margin-right: 90px;
 }
 
 #title,
