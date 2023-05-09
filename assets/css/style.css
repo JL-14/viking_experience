@@ -6,9 +6,14 @@
     border: 0;
 }
 
-body {
+body h1 {
     font-family: Source Sans Pro, sans-serif;
-    color: #724d3f;
+    color: #402e32;
+    text-decoration: none;
+}
+
+h1 {
+    align: center;
 }
 
 /*Setting set class image sizes -Large, Medium, Small*/
