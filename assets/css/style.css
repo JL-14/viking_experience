@@ -8,7 +8,62 @@
 
 body {
     font-family: Source Sans Pro, sans-serif;
-    color: #c09336;
+    color: #724d3f;
 }
 
-/*Heading bar*/
+/*Setting set class image sizes -Large, Medium, Small*/
+img.large {
+    height: 600px;
+    width: 100%;
+}
+
+img.medium {
+    height: 300px;
+    width: 100%;
+}
+
+img.small {
+    height: 100px;
+    width: 100%;
+}
+
+/*Header bar*/
+
+/*Logo placement*/
+#logo {
+    float: left;
+    margin-left: 30px;
+
+}
+
+/*Header text*/
+#title {
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 60px;
+}
+
+/*Navigation links*/
+#menu {
+    font-size: 100%;
+    letter-spacing: 2px;
+}
+
+#title,
+#menu {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #c09336;
+}
