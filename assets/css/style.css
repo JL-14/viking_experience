@@ -23,7 +23,7 @@ nav{
 }
 
 .logo {
-    width: 140px;
+    width: 100px;
 }
 
 /*Title Text*/
@@ -39,7 +39,7 @@ nav{
 
 .menu {
     padding: 28px 0;
-    margin-right: 0;
+    margin-right: 100px;
 }
 
 .menu li {
@@ -47,7 +47,7 @@ nav{
     font-size: 100%;
     color: #402e32;
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 5px;
     list-style-type: none;
 }
 
