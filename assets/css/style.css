@@ -6,23 +6,7 @@
     border: 0;
 }
 
-/*Setting set class image sizes -Large, Medium, Small*/
-img.large {
-    height: 600px;
-    width: 100%;
-}
-
-img.medium {
-    height: 300px;
-    width: 100%;
-}
-
-img.small {
-    height: 100px;
-    width: 100%;
-}
-
-/*Formatting of header and logo*/
+/*Formatting of logo, header and menu*/
 
 /*Title Text*/
 h1 {
