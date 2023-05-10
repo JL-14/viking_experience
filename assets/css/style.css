@@ -8,27 +8,74 @@
 
 /*Formatting of logo, header and menu*/
 
+.header {
+    height: 200px;
+    width: 100%;
+    padding: 0 8%;
+    background: #fff8f0;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 140px;
+}
+
 /*Title Text*/
-h1 {
+#title {
     font-family: Source Sans Pro, sans-serif;
+    font-size: 175%;
     color: #402e32;
+    margin-top: 30px;
     text-decoration: none;
     text-align: center;
     position: relative;
 }
 
+.menu {
+    padding: 28px 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #402e32;
+    padding: 5px 0; 
+    position: relative;
+}
+
+.menu li a::after {
+    content: '';
+    background: #402e32;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.menu li a:hover::after {
+    width: 100%;
+}
+
+
+
+
 /*Logo*/
 #logo {
     float: left;
-    margin-left: 90px;
+    margin-left: 30px;
     position: absolute;
-    z-index: 1;
-}
-
-/*Header text*/
-#title {
-    font-family: Source Sans Pro, sans-serif;
-    font-size: 300%;
 }
 
 /*Navigation links*/
@@ -37,11 +84,7 @@ h1 {
     font-size: 100%;
     letter-spacing: 2px;
     float: right;
-    margin-right: 90px;
-}
-
-#title,
-#menu {
+    margin-right: 30px;
     line-height: 75px;
 }
 
