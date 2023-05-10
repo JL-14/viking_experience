@@ -24,7 +24,7 @@ img.small {
 
 /*Formatting of header and logo*/
 
-/*Text*/
+/*Title Text*/
 h1 {
     font-family: Source Sans Pro, sans-serif;
     color: #402e32;
@@ -44,7 +44,7 @@ h1 {
 /*Header text*/
 #title {
     font-family: Source Sans Pro, sans-serif;
-    font-size: 60px;
+    font-size: 300%;
 }
 
 /*Navigation links*/
