@@ -22,6 +22,7 @@ nav{
     justify-content: space-between;
 }
 
+/*Logo*/
 .logo {
     width: 100px;
 }
@@ -37,6 +38,7 @@ nav{
     position: relative;
 }
 
+/*Menu links*/
 .menu {
     padding: 28px 0;
     margin-right: 100px;
@@ -73,36 +75,51 @@ nav{
     width: 100%;
 }
 
+/*Main image*/
+#main-image {
+    height: 600px;
+    width: 100%;
+    background: url("assets/images/main-image.jpg") no-repeat center center;
+    overflow: hidden;
+    position: relative;
 
+/*Animation effect on loading page*/
+animation-name: ship-zoom;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+}
 
+@keyframes ship-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
 
-/*Logo*/
-#logo {
-    float: left;
-    margin-left: 30px;
+/*Cover text*/
+#cover-text h2, #cover-text h3{
+    color: #402e32;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Source Sans Pro, sans-serif;
+    letter-spacing: 4px;
+    
+    width: 300px;
+    height: 200px;
+    
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(192, 147, 54, .75);
+
+    bottom: 300px;
+    left: 100px;
+
     position: absolute;
 }
 
-/*Navigation links*/
-#menu {
-    font-family: Source Sans Pro, sans-serif;
-    font-size: 100%;
-    letter-spacing: 2px;
-    float: right;
-    margin-right: 30px;
-    line-height: 75px;
-}
 
-#menu li {
-    float: right;
-
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #c09336;
-}
